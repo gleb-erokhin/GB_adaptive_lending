@@ -30,6 +30,8 @@ body {
 
 // Блок header
 .header {
+    background-color: #f6f6f6;
+    margin-bottom: 16px;
 
     .nav {
         display: flex;
@@ -53,8 +55,14 @@ body {
 
 // блок поиска
 .find {
+    margin-bottom: 25px;
     &__box {
         display: flex;
         justify-content: flex-end;
     }
+
+    &__left {
+        display: flex;
+    }
+
 }
