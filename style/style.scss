@@ -28,29 +28,36 @@ body {
     width: $mainWidth;
 }
 
+.padding-left {
+    padding-left: 5px;
+}
+
+// блок для патернов
+// блок меню
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 27px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        font-size: 11px;
+        color: #7e7e7e;
+    }
+
+    &__item {
+        list-style: none;
+    }
+}
+
+// основной блок стилизации
 // Блок header
 .header {
     background-color: #f6f6f6;
     margin-bottom: 16px;
-
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 27px;
-
-        &__items {
-            display: flex;
-            justify-content: space-between;
-            gap: 40px;
-            font-size: 11px;
-            color: #7e7e7e;
-        }
-
-        &__item {
-            list-style: none;
-        }
-    }
 }
 
 // блок поиска
@@ -64,5 +71,4 @@ body {
     &__left {
         display: flex;
     }
-
 }

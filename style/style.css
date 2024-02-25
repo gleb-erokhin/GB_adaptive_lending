@@ -25,25 +25,30 @@ body {
   width: 1170px;
 }
 
-.header {
-  background-color: #f6f6f6;
-  margin-bottom: 16px;
+.padding-left {
+  padding-left: 5px;
 }
-.header .nav {
+
+.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 27px;
 }
-.header .nav__items {
+.menu__items {
   display: flex;
   justify-content: space-between;
   gap: 40px;
   font-size: 11px;
   color: #7e7e7e;
 }
-.header .nav__item {
+.menu__item {
   list-style: none;
+}
+
+.header {
+  background-color: #f6f6f6;
+  margin-bottom: 16px;
 }
 
 .find {
