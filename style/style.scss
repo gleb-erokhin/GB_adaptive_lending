@@ -1,3 +1,29 @@
-@import 'vars';
+@import "vars";
 
 // Значения по умолчиню
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Merriweather Sans";
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.center {
+    padding-left: calc(50% - $mainWidth / 2);
+    padding-right: calc(50% - $mainWidth / 2);
+}
+
+.container {
+    width: $mainWidth;
+}
