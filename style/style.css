@@ -28,6 +28,8 @@ body {
 .header .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  min-height: 27px;
 }
 .header .nav__items {
   display: flex;
@@ -38,4 +40,9 @@ body {
 }
 .header .nav__item {
   list-style: none;
+}
+
+.find__box {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */

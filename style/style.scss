@@ -30,10 +30,13 @@ body {
 
 // Блок header
 .header {
+
     .nav {
         display: flex;
         justify-content: space-between;
-        
+        align-items: center;
+        min-height: 27px;
+
         &__items {
             display: flex;
             justify-content: space-between;
@@ -41,9 +44,17 @@ body {
             font-size: 11px;
             color: #7e7e7e;
         }
-        
+
         &__item {
             list-style: none;
         }
+    }
+}
+
+// блок поиска
+.find {
+    &__box {
+        display: flex;
+        justify-content: flex-end;
     }
 }
