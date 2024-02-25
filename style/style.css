@@ -23,4 +23,19 @@ body {
 
 .container {
   width: 1170px;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: 11px;
+  color: #7e7e7e;
+}
+.header .nav__item {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

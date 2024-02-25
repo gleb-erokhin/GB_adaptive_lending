@@ -27,3 +27,23 @@ body {
 .container {
     width: $mainWidth;
 }
+
+// Блок header
+.header {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        
+        &__items {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            font-size: 11px;
+            color: #7e7e7e;
+        }
+        
+        &__item {
+            list-style: none;
+        }
+    }
+}
