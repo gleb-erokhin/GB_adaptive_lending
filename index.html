@@ -1,120 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./style/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-            rel="stylesheet">
-        <title>FENGO</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>FENGO</title>
+</head>
 
-    <body>
-        <!-- меню корзина, переключение языка -->
-        <header class="header center">
-            <div class="conteiner">
-                <nav class="header-menu">
-                    <div class="header-menu__left">
-                        <ul class="header-menu__items">
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My Account</a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">MY Wishlist (0)</a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">Checkout</a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">Log In or Register</a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My favorites (0)</a> 
-                            </li>
-                        </ul>
+<body>
+    <!-- меню корзина, переключение языка -->
+    <header class="header center">
+        <div class="conteiner">
+            <nav class="header-menu">
+                <div class="header-menu__left">
+                    <ul class="header-menu__items">
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My Account</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">MY Wishlist (0)</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Checkout</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Log In or Register</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My favorites (0)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-menu__right">
+                    <ul class="header-menu__items">
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">US Dollar<i class="fa fa-angle-down padding-left"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">English<i class="fa fa-angle-down padding-left"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My Bag: 0 item(s)</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Поиск -->
+    <section class="find center">
+        <div class="container">
+            <form action="#">
+                <div class="find__box">
+                    <div class="find__container">
+                        <input class="find__input" type="search" placeholder="Find it here...">
+                        <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
-                    <div class="header-menu__right">
-                        <ul class="header-menu__items">
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">US Dollar<i
-                                    class="fa fa-angle-down padding-left" aria-hidden="true"></i>
-                                </a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">English<i
-                                    class="fa fa-angle-down padding-left" aria-hidden="true"></i>
-                                </a> 
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My Bag: 0 item(s)</a> 
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- главная навигация -->
+    <section class="navigation center">
+        <div class="container">
+            <nav class="navigation-menu">
+                <a class="navigation-menu__logo" href="#">
+                    <img src="./img/logo/logo.png" alt="logo">
+                    <h1 class="navigation-menu__logo-text">fengo</h1>
+                </a>
+                <div class="navigation-menu__main">
+                    <ul class="navigation-menu__items">
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Fashion</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Electronics</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Gifts</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Books</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">At Home</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Music</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Sale</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- блок главное фото, слайер -->
+    <section class="hero center">
+        <div class="hero__content center">
+            <div class="hero__items">
+                <p class="hero__text">Check your</p>
+                <h1 class="hero__title">autumn style</h1>
+                <h2 class="hero__subtitle">All the trends you need this season</h2>
             </div>
-        </header>
-        <!-- Поиск -->
-        <section class="find center">
-            <div class="container">
-                <form action="#">
-                    <div class="find__box">
-                        <div class="find__container">
-                            <input class="find__input" type="search" placeholder="Find it here...">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!-- главная навигация -->
-        <section class="navigation center">
-            <div class="container">
-                <nav class="navigation-menu">
-                    <a class="navigation-menu__logo" href="#">
-                        <img src="./img/logo/logo.png" alt="logo">
-                        <h1 class="navigation-menu__logo-text">fengo</h1>
-                    </a>
-                    <div class="navigation-menu__main">
-                        <ul class="navigation-menu__items">
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Fashion</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Electronics</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Gifts</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Books</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">At Home</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Music</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Sale</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </section>
-        <!-- блок главное фото, слайер -->
-        <section class="hero"></section>
-        <!-- предложения и скидки -->
-        <section class="offers"></section>
-        <!-- cards -->
-        <section class="cards"></section>
-        <!-- подвал -->
-        <footer class="footer"></footer>
-    </body>
+            <a class="hero__link" href="#">read it now<i class="fa fa-angle-right padding-left" aria-hidden="true"></i></a>
+        </div>
+    </section>
+    <!-- предложения и скидки -->
+    <section class="offers"></section>
+    <!-- cards -->
+    <section class="cards"></section>
+    <!-- подвал -->
+    <footer class="footer"></footer>
+</body>
 
 </html>
