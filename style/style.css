@@ -22,7 +22,9 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  --bs-gutter-x: none;
+  --bs-gutter-y: none;
 }
 
 .padding-left {
@@ -151,11 +153,20 @@ body {
   border-radius: 8px;
 }
 
+.offers {
+  padding-top: 60px;
+}
 .offers__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
 }
 .offers__item {
   background-color: #cccccc;
+}
+.offers__item-a {
+  min-width: 770px;
+  min-height: 430px;
+  grid-column: 1/3;
 }/*# sourceMappingURL=style.css.map */

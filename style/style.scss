@@ -25,7 +25,9 @@ body {
 }
 
 .container {
-    width: $mainWidth;
+    max-width: $mainWidth;
+    --bs-gutter-x: none;
+    --bs-gutter-y: none;
 }
 
 .padding-left {
@@ -187,11 +189,13 @@ body {
 
 // блок Offers
 .offers {
+    padding-top: 60px;
 
     &__items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr) ;
+        gap: 30px;
     }
 
     &__item {
@@ -199,6 +203,8 @@ body {
     }
 
     &__item-a {
-        
+        min-width: 770px;
+        min-height: 430px;
+        grid-column: 1 / 3;
     }
 }
