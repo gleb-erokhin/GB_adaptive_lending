@@ -61,6 +61,11 @@ body {
         &__link {
             color: $colorMainAccount;
         }
+
+        ul {
+            margin-bottom: 0;
+            padding-left: 0;
+        }
     }
 }
 
