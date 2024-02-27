@@ -149,4 +149,13 @@ body {
   border-top: none;
   border-bottom: none;
   border-radius: 8px;
+}
+
+.offers__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.offers__item {
+  background-color: #cccccc;
 }/*# sourceMappingURL=style.css.map */

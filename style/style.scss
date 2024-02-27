@@ -176,10 +176,29 @@ body {
     }
 }
 
+// переопределение стилей пагинации в карусели
 .carousel-indicators [data-bs-target] {
     width: 14px;
     height: 14px;
     border-top: none;
     border-bottom: none;
     border-radius: 8px;
+}
+
+// блок Offers
+.offers {
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr) ;
     }
+
+    &__item {
+        background-color: $bgMainColor;
+    }
+
+    &__item-a {
+        
+    }
+}
