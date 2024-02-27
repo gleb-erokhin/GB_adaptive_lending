@@ -46,6 +46,8 @@ body {
   gap: 40px;
   font-size: 11px;
   color: #7e7e7e;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .header .header-menu__item {
   list-style: none;
@@ -53,10 +55,6 @@ body {
 }
 .header .header-menu__link {
   color: #7e7e7e;
-}
-.header .header-menu ul {
-  margin-bottom: 0;
-  padding-left: 0;
 }
 
 .find {
@@ -108,7 +106,7 @@ body {
 .hero__content {
   top: 358px;
   position: absolute;
-  right: 120px;
+  right: 200px;
   margin: 0 auto;
 }
 .hero__items {
@@ -143,4 +141,12 @@ body {
   font-weight: 700;
   color: #333333;
   cursor: pointer;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 14px;
+  height: 14px;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
