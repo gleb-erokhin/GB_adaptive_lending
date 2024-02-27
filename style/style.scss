@@ -117,7 +117,7 @@ body {
 
 // блок hero
 .hero {
-    height: $heightBlockHero;
+    max-height: $heightBlockHero;
     background-color: $bgMainColor;
 
     // display: grid;
@@ -127,7 +127,6 @@ body {
 
     &__img {
         width: 100%;
-
     }
 
     &__content {

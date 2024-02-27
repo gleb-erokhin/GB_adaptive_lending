@@ -96,7 +96,7 @@ body {
 }
 
 .hero {
-  height: 1080px;
+  max-height: 1080px;
   background-color: #cccccc;
   position: relative;
 }
