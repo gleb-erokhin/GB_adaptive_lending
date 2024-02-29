@@ -194,7 +194,7 @@ body {
 .offers__info {
   position: absolute;
   z-index: 1;
-  top: 182px;
+  top: 110px;
   left: 168px;
 }
 .offers__title {
@@ -204,6 +204,11 @@ body {
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 0;
+}
+.offers__block {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+  padding: 72px 33px;
 }
 .offers__header {
   display: flex;
@@ -221,7 +226,6 @@ body {
   margin-bottom: 0;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 130px;
 }
 .offers__link {
   display: block;
@@ -229,4 +233,5 @@ body {
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
+  padding-top: 48px;
 }/*# sourceMappingURL=style.css.map */
