@@ -194,7 +194,8 @@ body {
 // блок Offers
 .offers {
     display: block;
-    padding-top: 60px;
+    padding: 60px 0 60px 0;
+    background-color: #f3f3f3;
 
     &__items {
         display: grid;
@@ -289,7 +290,7 @@ body {
         padding-top: 48px;
     }
 
-    // блок offers__item-c текст под каруселью
+    // блок offers__item-c текст 
     &__item-c {
         position: relative;
     }
@@ -316,4 +317,58 @@ body {
         color: $colorMainSite;
 
     }
+
+    // блок offers__item-c текст 
+    &__item-e {
+        position: relative;
+    }
+
+    &__info_e {
+        top: 30%;
+        left: 5%;
+        right: 5%;
+    }
+
+    &__title_e {
+        font-family: 'Merriweather Sans';
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 800;
+        color: $colorMainSite;
+    }
+
+    &__text_e {
+        font-family: 'Roboto Condensed';
+        font-size: 25px;
+        line-height: 22px;
+        color: $colorMainSite;
+    }
+
+    &__span_e {
+        width: 50px;
+    }
 }
+
+
+// &__info_c {
+//     top: 30%;
+//     left: 5%;
+//     right: 5%;
+// }
+
+// &__title_c {
+//     font-family: 'Merriweather Sans';
+//     font-size: 40px;
+//     line-height: 22px;
+//     font-weight: 700;
+//     color: $colorMainSite;
+// }
+
+// &__text_c {
+//     font-family: 'Roboto Condensed';
+//     font-size: 23px;
+//     line-height: 22px;
+//     font-weight: 700;
+//     color: $colorMainSite;
+
+// }

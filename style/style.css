@@ -159,7 +159,8 @@ body {
 
 .offers {
   display: block;
-  padding-top: 60px;
+  padding: 60px 0 60px 0;
+  background-color: #f3f3f3;
 }
 .offers__items {
   display: grid;
@@ -258,4 +259,28 @@ body {
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;
+}
+.offers__item-e {
+  position: relative;
+}
+.offers__info_e {
+  top: 30%;
+  left: 5%;
+  right: 5%;
+}
+.offers__title_e {
+  font-family: "Merriweather Sans";
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.offers__text_e {
+  font-family: "Roboto Condensed";
+  font-size: 25px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.offers__span_e {
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
