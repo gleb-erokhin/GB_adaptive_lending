@@ -283,4 +283,48 @@ body {
 }
 .offers__span_e {
   width: 50px;
+  border-bottom: 2px solid white;
+}
+.offers__item-d {
+  position: relative;
+}
+.offers__info_d {
+  top: 30%;
+  left: 5%;
+  right: 5%;
+}
+.offers__header_d {
+  align-items: center;
+}
+.offers__title_d {
+  font-family: "Cousine";
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: none;
+  color: #ffffff;
+}
+.offers__text_d-up {
+  font-family: "Roboto Condensed";
+  font-size: 35px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.offers__text_d {
+  font-family: Cousine;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.offers__span_d {
+  width: 80px;
+  border-bottom: 1px solid white;
+}
+.offers__link_d {
+  padding-top: 186px;
 }/*# sourceMappingURL=style.css.map */
