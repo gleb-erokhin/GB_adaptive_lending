@@ -213,6 +213,7 @@ body {
 }
 .offers__header {
   display: flex;
+  justify-content: center;
 }
 .offers__span {
   border-bottom: 3px solid white;
@@ -235,4 +236,26 @@ body {
   font-weight: 700;
   color: #ffffff;
   padding-top: 48px;
+}
+.offers__item-c {
+  position: relative;
+}
+.offers__info_c {
+  top: 30%;
+  left: 5%;
+  right: 5%;
+}
+.offers__title_c {
+  font-family: "Merriweather Sans";
+  font-size: 40px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.offers__text_c {
+  font-family: "Roboto Condensed";
+  font-size: 23px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
