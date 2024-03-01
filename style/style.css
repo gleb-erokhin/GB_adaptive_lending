@@ -332,7 +332,7 @@ body {
   position: relative;
 }
 .offers__info_b {
-  top: 30%;
+  top: 50px;
   left: 5%;
   right: 5%;
 }
@@ -341,7 +341,6 @@ body {
   font-size: 25px;
   line-height: 40px;
   font-weight: 800;
-  text-transform: uppercase;
   color: #333333;
 }
 .offers__text_b {
@@ -350,7 +349,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   color: #2f2f2f;
-  padding-bottom: 318px;
+  padding-bottom: 480px;
 }
 .offers__text_b-up {
   font-family: "Cousine";
@@ -371,4 +370,17 @@ body {
 }
 .offers__link_b {
   padding-top: 0;
+}
+.offers__item-f {
+  position: relative;
+}
+.offers__info_f {
+  top: 45%;
+}
+.offers__title_f {
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

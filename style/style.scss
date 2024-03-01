@@ -406,8 +406,9 @@ body {
     &__item-b {
         position: relative;
     }
+
     &__info_b {
-        top: 30%;
+        top: 50px;
         left: 5%;
         right: 5%;
     }
@@ -417,7 +418,6 @@ body {
         font-size: 25px;
         line-height: 40px;
         font-weight: 800;
-        text-transform: uppercase;
         color: #333333;
     }
 
@@ -427,7 +427,7 @@ body {
         line-height: 20px;
         font-weight: 700;
         color: #2f2f2f;
-        padding-bottom: 318px;
+        padding-bottom: 480px;
     }
 
     &__text_b-up {
@@ -453,29 +453,20 @@ body {
     &__link_b {
         padding-top: 0;
     }
+
+    // блок offers__item-f текст 
+    &__item-f {
+        position: relative;
+    }
+    &__info_f {
+        top: 45%;
+    }
+
+    &__title_f {
+        font-family: 'Roboto Condensed';
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $colorMainSite;
+    }
 }
-
-// &__item-e {
-//     position: relative;
-// }
-// &__info_c {
-//     top: 30%;
-//     left: 5%;
-//     right: 5%;
-// }
-
-// &__title_c {
-//     font-family: 'Merriweather Sans';
-//     font-size: 40px;
-//     line-height: 22px;
-//     font-weight: 700;
-//     color: $colorMainSite;
-// }
-
-// &__text_c {
-//     font-family: 'Roboto Condensed';
-//     font-size: 23px;
-//     line-height: 22px;
-//     font-weight: 700;
-//     color: $colorMainSite;
-// }
