@@ -401,6 +401,58 @@ body {
     &__link_d {
         padding-top: 186px;
     }
+
+    // блок offers__item-b текст 
+    &__item-b {
+        position: relative;
+    }
+    &__info_b {
+        top: 30%;
+        left: 5%;
+        right: 5%;
+    }
+
+    &__title_b {
+        font-family: 'Merriweather Sans';
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #333333;
+    }
+
+    &__text_b {
+        font-family: 'Roboto Condensed';
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #2f2f2f;
+        padding-bottom: 318px;
+    }
+
+    &__text_b-up {
+        font-family: 'Cousine';
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: none;
+        color: #2f2f2f;
+        padding-top: 0;
+        padding-bottom: 14px;
+    }
+
+    &__header_b {
+        align-items: baseline;
+    }
+
+    &__span_b {
+        width: 50px;
+        border-bottom: 1px solid #333333;
+    }
+
+    &__link_b {
+        padding-top: 0;
+    }
 }
 
 // &__item-e {
