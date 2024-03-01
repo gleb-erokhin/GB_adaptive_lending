@@ -235,6 +235,19 @@ body {
         grid-row: 2 / 4;
     }
 
+    &__size {
+        position: absolute;
+        top: 5%;
+        right: 2%;
+        z-index: 1;
+
+        font-family: Arial;
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: $colorMainSite;
+    }
+
     // блок offers__item-a текст под каруселью
     &__info {
         position: absolute;
@@ -458,6 +471,7 @@ body {
     &__item-f {
         position: relative;
     }
+
     &__info_f {
         top: 45%;
     }

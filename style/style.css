@@ -192,6 +192,17 @@ body {
   grid-column: 2/3;
   grid-row: 2/4;
 }
+.offers__size {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  z-index: 1;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 .offers__info {
   position: absolute;
   z-index: 1;
