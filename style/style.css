@@ -200,7 +200,6 @@ body {
   font-family: Arial;
   font-size: 15px;
   line-height: 20px;
-  text-transform: uppercase;
   color: #ffffff;
 }
 .offers__info {
@@ -249,6 +248,55 @@ body {
   color: #ffffff;
   padding-top: 48px;
 }
+.offers__item-b {
+  position: relative;
+}
+.offers__info_b {
+  top: 50px;
+  left: 5%;
+  right: 5%;
+}
+.offers__title_b {
+  font-family: "Merriweather Sans";
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 800;
+  color: #333333;
+}
+.offers__text_b {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2f2f2f;
+  padding-bottom: 480px;
+}
+.offers__text_b-up {
+  font-family: "Cousine";
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: none;
+  color: #2f2f2f;
+  padding-top: 0;
+  padding-bottom: 14px;
+}
+.offers__header_b {
+  align-items: baseline;
+}
+.offers__span_b {
+  width: 50px;
+  border-bottom: 1px solid #333333;
+}
+.offers__link_b {
+  padding-top: 0;
+}
+.offers__size_b {
+  top: 50%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
 .offers__item-c {
   position: relative;
 }
@@ -270,31 +318,6 @@ body {
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;
-}
-.offers__item-e {
-  position: relative;
-}
-.offers__info_e {
-  top: 30%;
-  left: 5%;
-  right: 5%;
-}
-.offers__title_e {
-  font-family: "Merriweather Sans";
-  font-size: 30px;
-  line-height: 22px;
-  font-weight: 800;
-  color: #ffffff;
-}
-.offers__text_e {
-  font-family: "Roboto Condensed";
-  font-size: 25px;
-  line-height: 22px;
-  color: #ffffff;
-}
-.offers__span_e {
-  width: 50px;
-  border-bottom: 2px solid white;
 }
 .offers__item-d {
   position: relative;
@@ -339,48 +362,30 @@ body {
 .offers__link_d {
   padding-top: 186px;
 }
-.offers__item-b {
+.offers__item-e {
   position: relative;
 }
-.offers__info_b {
-  top: 50px;
+.offers__info_e {
+  top: 30%;
   left: 5%;
   right: 5%;
 }
-.offers__title_b {
+.offers__title_e {
   font-family: "Merriweather Sans";
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 22px;
   font-weight: 800;
-  color: #333333;
+  color: #ffffff;
 }
-.offers__text_b {
+.offers__text_e {
   font-family: "Roboto Condensed";
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #2f2f2f;
-  padding-bottom: 480px;
+  font-size: 25px;
+  line-height: 22px;
+  color: #ffffff;
 }
-.offers__text_b-up {
-  font-family: "Cousine";
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-  text-transform: none;
-  color: #2f2f2f;
-  padding-top: 0;
-  padding-bottom: 14px;
-}
-.offers__header_b {
-  align-items: baseline;
-}
-.offers__span_b {
+.offers__span_e {
   width: 50px;
-  border-bottom: 1px solid #333333;
-}
-.offers__link_b {
-  padding-top: 0;
+  border-bottom: 2px solid white;
 }
 .offers__item-f {
   position: relative;

@@ -244,7 +244,6 @@ body {
         font-family: Arial;
         font-size: 15px;
         line-height: 20px;
-        text-transform: uppercase;
         color: $colorMainSite;
     }
 
@@ -303,6 +302,65 @@ body {
         padding-top: 48px;
     }
 
+    // блок offers__item-b текст 
+    &__item-b {
+        position: relative;
+    }
+
+    &__info_b {
+        top: 50px;
+        left: 5%;
+        right: 5%;
+    }
+
+    &__title_b {
+        font-family: 'Merriweather Sans';
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 800;
+        color: #333333;
+    }
+
+    &__text_b {
+        font-family: 'Roboto Condensed';
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #2f2f2f;
+        padding-bottom: 480px;
+    }
+
+    &__text_b-up {
+        font-family: 'Cousine';
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: none;
+        color: #2f2f2f;
+        padding-top: 0;
+        padding-bottom: 14px;
+    }
+
+    &__header_b {
+        align-items: baseline;
+    }
+
+    &__span_b {
+        width: 50px;
+        border-bottom: 1px solid #333333;
+    }
+
+    &__link_b {
+        padding-top: 0;
+    }
+
+    &__size_b {
+        top: 50%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
     // блок offers__item-c текст 
     &__item-c {
         position: relative;
@@ -328,38 +386,6 @@ body {
         line-height: 22px;
         font-weight: 700;
         color: $colorMainSite;
-
-    }
-
-    // блок offers__item-e текст 
-    &__item-e {
-        position: relative;
-    }
-
-    &__info_e {
-        top: 30%;
-        left: 5%;
-        right: 5%;
-    }
-
-    &__title_e {
-        font-family: 'Merriweather Sans';
-        font-size: 30px;
-        line-height: 22px;
-        font-weight: 800;
-        color: $colorMainSite;
-    }
-
-    &__text_e {
-        font-family: 'Roboto Condensed';
-        font-size: 25px;
-        line-height: 22px;
-        color: $colorMainSite;
-    }
-
-    &__span_e {
-        width: 50px;
-        border-bottom: 2px solid white;
 
     }
 
@@ -415,56 +441,36 @@ body {
         padding-top: 186px;
     }
 
-    // блок offers__item-b текст 
-    &__item-b {
+    // блок offers__item-e текст 
+    &__item-e {
         position: relative;
     }
 
-    &__info_b {
-        top: 50px;
+    &__info_e {
+        top: 30%;
         left: 5%;
         right: 5%;
     }
 
-    &__title_b {
+    &__title_e {
         font-family: 'Merriweather Sans';
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 22px;
         font-weight: 800;
-        color: #333333;
+        color: $colorMainSite;
     }
 
-    &__text_b {
+    &__text_e {
         font-family: 'Roboto Condensed';
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 700;
-        color: #2f2f2f;
-        padding-bottom: 480px;
+        font-size: 25px;
+        line-height: 22px;
+        color: $colorMainSite;
     }
 
-    &__text_b-up {
-        font-family: 'Cousine';
-        font-size: 18px;
-        line-height: 20px;
-        font-weight: 700;
-        text-transform: none;
-        color: #2f2f2f;
-        padding-top: 0;
-        padding-bottom: 14px;
-    }
-
-    &__header_b {
-        align-items: baseline;
-    }
-
-    &__span_b {
+    &__span_e {
         width: 50px;
-        border-bottom: 1px solid #333333;
-    }
+        border-bottom: 2px solid white;
 
-    &__link_b {
-        padding-top: 0;
     }
 
     // блок offers__item-f текст 
