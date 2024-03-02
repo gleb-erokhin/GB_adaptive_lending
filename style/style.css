@@ -109,7 +109,6 @@ body {
 .hero {
   max-height: 1080px;
   background-color: #cccccc;
-  position: relative;
 }
 .hero__img {
   width: 100%;

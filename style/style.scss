@@ -128,14 +128,9 @@ body {
 
 // блок hero
 .hero {
-    // max-width: 1920px;
     max-height: $heightBlockHero;
     background-color: $bgMainColor;
-
-    // display: grid;
-    // grid-template-columns: 1fr 1fr;
-
-    position: relative;
+    // relative взят из бутсрапа, в классе carousel
 
     &__img {
         width: 100%;
