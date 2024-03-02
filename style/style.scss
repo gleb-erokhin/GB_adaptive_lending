@@ -24,6 +24,11 @@ body {
     padding-right: calc(50% - $mainWidth / 2);
 }
 
+.hero-center {
+    padding-left: calc(50% - $maxWidth / 2);
+    padding-right: calc(50% - $maxWidth / 2);
+}
+
 .container {
     max-width: $mainWidth;
     --bs-gutter-x: none;
@@ -123,6 +128,7 @@ body {
 
 // блок hero
 .hero {
+    // max-width: 1920px;
     max-height: $heightBlockHero;
     background-color: $bgMainColor;
 
@@ -148,7 +154,7 @@ body {
     }
 
     &__text {
-        font-family: 'Cousine';
+        font-family: "Cousine";
         font-size: 30px;
         line-height: 20px;
         font-weight: 700;
@@ -166,7 +172,7 @@ body {
     }
 
     &__subtitle {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 35px;
         line-height: 33px;
         font-weight: 700;
@@ -258,7 +264,7 @@ body {
     }
 
     &__title {
-        font-family: 'Cousine';
+        font-family: "Cousine";
         font-size: 40px;
         line-height: 21px;
         font-weight: 700;
@@ -267,7 +273,7 @@ body {
     }
 
     &__block {
-        background-color: rgba(0, 0, 0, 0.0);
+        background-color: rgba(0, 0, 0, 0);
         border: 1px solid rgba(255, 255, 255, 0.29);
         padding: 72px 33px;
     }
@@ -284,7 +290,7 @@ body {
     }
 
     &__text {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 25px;
         line-height: 40px;
         color: $colorMainSite;
@@ -302,7 +308,7 @@ body {
         padding-top: 48px;
     }
 
-    // блок offers__item-b текст 
+    // блок offers__item-b текст
     &__item-b {
         position: relative;
     }
@@ -314,7 +320,7 @@ body {
     }
 
     &__title_b {
-        font-family: 'Merriweather Sans';
+        font-family: "Merriweather Sans";
         font-size: 25px;
         line-height: 40px;
         font-weight: 800;
@@ -322,7 +328,7 @@ body {
     }
 
     &__text_b {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 20px;
         line-height: 20px;
         font-weight: 700;
@@ -331,7 +337,7 @@ body {
     }
 
     &__text_b-up {
-        font-family: 'Cousine';
+        font-family: "Cousine";
         font-size: 18px;
         line-height: 20px;
         font-weight: 700;
@@ -361,7 +367,7 @@ body {
         justify-content: center;
     }
 
-    // блок offers__item-c текст 
+    // блок offers__item-c текст
     &__item-c {
         position: relative;
     }
@@ -373,7 +379,7 @@ body {
     }
 
     &__title_c {
-        font-family: 'Merriweather Sans';
+        font-family: "Merriweather Sans";
         font-size: 40px;
         line-height: 22px;
         font-weight: 700;
@@ -381,15 +387,14 @@ body {
     }
 
     &__text_c {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 23px;
         line-height: 22px;
         font-weight: 700;
         color: $colorMainSite;
-
     }
 
-    // блок offers__item-d текст 
+    // блок offers__item-d текст
     &__item-d {
         position: relative;
     }
@@ -405,7 +410,7 @@ body {
     }
 
     &__title_d {
-        font-family: 'Cousine';
+        font-family: "Cousine";
         font-size: 18px;
         line-height: 20px;
         font-weight: 700;
@@ -414,7 +419,7 @@ body {
     }
 
     &__text_d-up {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 35px;
         line-height: 22px;
         font-weight: 700;
@@ -441,7 +446,7 @@ body {
         padding-top: 186px;
     }
 
-    // блок offers__item-e текст 
+    // блок offers__item-e текст
     &__item-e {
         position: relative;
     }
@@ -453,7 +458,7 @@ body {
     }
 
     &__title_e {
-        font-family: 'Merriweather Sans';
+        font-family: "Merriweather Sans";
         font-size: 30px;
         line-height: 22px;
         font-weight: 800;
@@ -461,7 +466,7 @@ body {
     }
 
     &__text_e {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 25px;
         line-height: 22px;
         color: $colorMainSite;
@@ -470,10 +475,9 @@ body {
     &__span_e {
         width: 50px;
         border-bottom: 2px solid white;
-
     }
 
-    // блок offers__item-f текст 
+    // блок offers__item-f текст
     &__item-f {
         position: relative;
     }
@@ -483,7 +487,7 @@ body {
     }
 
     &__title_f {
-        font-family: 'Roboto Condensed';
+        font-family: "Roboto Condensed";
         font-size: 30px;
         line-height: 22px;
         font-weight: 700;

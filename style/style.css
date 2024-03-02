@@ -21,6 +21,11 @@ body {
   padding-right: calc(50% - 585px);
 }
 
+.hero-center {
+  padding-left: calc(50% - 960px);
+  padding-right: calc(50% - 960px);
+}
+
 .container {
   max-width: 1170px;
   --bs-gutter-x: none;
