@@ -571,6 +571,22 @@ body {
 .cards .cards-hover__wish-link {
   color: #333333;
 }
+.cards .cards-show-more {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards .cards-show-more__title {
+  line-height: 17px;
+  font-weight: 700;
+  color: #555555;
+}
+.cards .cards-show-more__span {
+  display: block;
+  width: 520px;
+  border-bottom: 1px solid #dddddd;
+}
 
 .cards-product__item:hover .cards-hover__block {
   position: absolute;

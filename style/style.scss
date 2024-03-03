@@ -693,6 +693,25 @@ body {
             color: #333333;
         }
     }
+
+    .cards-show-more {
+        padding-top: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__title {
+            line-height: 17px;
+            font-weight: 700;
+            color: #555555;
+        }
+
+        &__span {
+            display: block;
+            width: 520px;
+            border-bottom: 1px solid #dddddd;
+        }
+    }
 }
 
 .cards-product__item:hover .cards-hover__block {
