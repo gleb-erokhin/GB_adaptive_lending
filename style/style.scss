@@ -585,6 +585,35 @@ body {
     }
 
     .cards-hover {
+        &__items {
+            display: flex;
+            position: absolute;
+            top: -100px;
+            left: 10px;
+            gap: 10px;
+        }
+
+        &__item {
+            width: 25px;
+            height: 25px;
+            background-color: #0e0c0f;
+            border: 1px solid #555555;
+            box-shadow: inset 0px 0px 0px 2px #ffffff;
+            z-index: 1;
+        }
+
+        &__item_a {
+            background-color: #0e0c0f;
+        }
+
+        &__item_b {
+            background-color: #202a4e;
+        }
+
+        &__item_c {
+            background-color: #923349;
+        }
+
         &__block {
             display: none;
         }
@@ -625,7 +654,7 @@ body {
 .cards-product__item:hover .cards-hover__block {
     position: absolute;
     display: initial;
-    top: 418px;
+    top: 415px;
     background-color: white;
 }
 

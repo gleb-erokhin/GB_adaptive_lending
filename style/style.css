@@ -479,7 +479,31 @@ body {
   color: #cecece;
 }
 .cards .cards-product__stars_disabled {
-  display: none;
+  display: initial;
+}
+.cards .cards-hover__items {
+  display: flex;
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  gap: 10px;
+}
+.cards .cards-hover__item {
+  width: 25px;
+  height: 25px;
+  background-color: #0e0c0f;
+  border: 1px solid #555555;
+  box-shadow: inset 0px 0px 0px 2px #ffffff;
+  z-index: 1;
+}
+.cards .cards-hover__item_a {
+  background-color: #0e0c0f;
+}
+.cards .cards-hover__item_b {
+  background-color: #202a4e;
+}
+.cards .cards-hover__item_c {
+  background-color: #923349;
 }
 .cards .cards-hover__block {
   display: none;
@@ -514,7 +538,7 @@ body {
 .cards-product__item:hover .cards-hover__block {
   position: absolute;
   display: initial;
-  top: 418px;
+  top: 415px;
   background-color: white;
 }
 
