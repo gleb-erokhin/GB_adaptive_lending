@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: #333333;
 }
 
 li {
@@ -438,13 +439,15 @@ body {
   display: flex;
   padding-top: 62px;
 }
+.cards .cards-product__img {
+  padding-bottom: 24px;
+}
 .cards .cards-product__item {
   position: relative;
-  min-height: 470px;
-  background-color: #aba5a5;
+  min-height: 483px;
+  background-color: #e7e1e1;
 }
 .cards .cards-product__info {
-  padding-top: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -478,10 +481,36 @@ body {
   min-width: 270px;
   display: flex;
   justify-content: center;
+  gap: 20px;
+  padding: 11px 28px;
+  border: 2px solid #444444;
 }
-.cards .cards-product__item:hover .cards-hover__block {
+.cards .cards-hover__span {
+  font-size: 16px;
+  color: #444444;
+}
+.cards .cards-hover__wish-compare {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .cards-hover__wish-title {
+  font-size: 13px;
+  line-height: 17px;
+  font-style: italic;
+  text-transform: none;
+}
+.cards .cards-hover__wish-link {
+  color: #333333;
+}
+
+.cards-product__item:hover .cards-hover__block {
   position: absolute;
-  top: 418px;
   display: initial;
+  top: 418px;
   background-color: white;
+}
+
+.cards-hover__wish-link:hover {
+  color: #923349;
 }/*# sourceMappingURL=style.css.map */
