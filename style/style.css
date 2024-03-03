@@ -609,4 +609,37 @@ body {
   display: grid;
   grid-template-columns: 476px 400px 1fr;
   grid-template-rows: repeat(4, 1fr);
+}
+.footer .footer-info__about {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding-bottom: 60px;
+  padding-right: 39px;
+}
+.footer .footer-info__title {
+  font-family: "Cousine";
+  font-size: 17px;
+  line-height: 20px;
+  color: #b6b6b6;
+  margin-bottom: 0;
+}
+.footer .footer-info__content {
+  display: flex;
+  gap: 19px;
+}
+.footer .footer-info__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer .footer-info__img {
+  width: 180px;
+  height: 180px;
+}
+.footer .footer-info__text {
+  font-family: "Arial";
+  line-height: 20px;
+  color: #888888;
+  text-transform: none;
 }/*# sourceMappingURL=style.css.map */

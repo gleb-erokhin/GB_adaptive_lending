@@ -1,771 +1,788 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./style/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
-        <title>FENGO</title>
-    </head>
 
-    <body>
-        <!-- меню корзина, переключение языка -->
-        <header class="header center">
-            <div class="conteiner">
-                <nav class="header-menu">
-                    <div class="header-menu__left">
-                        <ul class="header-menu__items">
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My Account</a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">MY Wishlist (0)</a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">Checkout</a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">Log In or Register</a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My favorites (0)</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="header-menu__right">
-                        <ul class="header-menu__items">
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">US Dollar<i class="fa fa-angle-down padding-left"
-                                        aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">English<i class="fa fa-angle-down padding-left"
-                                        aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="header-menu__item">
-                                <a href="#" class="header-menu__link">My Bag: 0 item(s)</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <!-- Поиск -->
-        <section class="find center">
-            <div class="container">
-                <form action="#">
-                    <div class="find__box">
-                        <div class="find__container">
-                            <input class="find__input" type="search" placeholder="Find it here...">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!-- главная навигация -->
-        <section class="navigation center">
-            <div class="container">
-                <nav class="navigation-menu">
-                    <a class="navigation-menu__logo" href="#">
-                        <img src="./img/logo/logo.png" alt="logo">
-                        <h1 class="navigation-menu__logo-text">fengo</h1>
-                    </a>
-                    <div class="navigation-menu__main">
-                        <ul class="navigation-menu__items">
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Fashion</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Electronics</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Gifts</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Books</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">At Home</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Music</a>
-                            </li>
-                            <li class="navigation-menu__item">
-                                <a class="navigation-menu__link" href="#">Sale</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </section>
-        <!-- блок главное фото, слайер -->
-        <section class="hero hero-center">
-            <!-- карусель -->
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+    <title>FENGO</title>
+</head>
+
+<body>
+    <!-- меню корзина, переключение языка -->
+    <header class="header center">
+        <div class="conteiner">
+            <nav class="header-menu">
+                <div class="header-menu__left">
+                    <ul class="header-menu__items">
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My Account</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">MY Wishlist (0)</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Checkout</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">Log In or Register</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My favorites (0)</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <!-- <h5>First slide label</h5>
+                <div class="header-menu__right">
+                    <ul class="header-menu__items">
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">US Dollar<i class="fa fa-angle-down padding-left"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">English<i class="fa fa-angle-down padding-left"
+                                    aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="#" class="header-menu__link">My Bag: 0 item(s)</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Поиск -->
+    <section class="find center">
+        <div class="container">
+            <form action="#">
+                <div class="find__box">
+                    <div class="find__container">
+                        <input class="find__input" type="search" placeholder="Find it here...">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- главная навигация -->
+    <section class="navigation center">
+        <div class="container">
+            <nav class="navigation-menu">
+                <a class="navigation-menu__logo" href="#">
+                    <img src="./img/logo/logo.png" alt="logo">
+                    <h1 class="navigation-menu__logo-text">fengo</h1>
+                </a>
+                <div class="navigation-menu__main">
+                    <ul class="navigation-menu__items">
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Fashion</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Electronics</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Gifts</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Books</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">At Home</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Music</a>
+                        </li>
+                        <li class="navigation-menu__item">
+                            <a class="navigation-menu__link" href="#">Sale</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- блок главное фото, слайер -->
+    <section class="hero hero-center">
+        <!-- карусель -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p> -->
-                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./img/2.jpeg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <!-- <h5>Second slide label</h5>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p> -->
-                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./img/3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <!-- <h5>Third slide label</h5>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p> -->
-                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-            <!-- // карусель -->
-            <div class="hero__content hero-center">
-                <div class="hero__items">
-                    <p class="hero__text">Check your</p>
-                    <h1 class="hero__title">autumn style</h1>
-                    <h2 class="hero__subtitle">All the trends you need this season</h2>
-                </div>
-                <a class="hero__link" href="#">read it now<i class="fa fa-angle-right padding-left"
-                        aria-hidden="true"></i></a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- // карусель -->
+        <div class="hero__content hero-center">
+            <div class="hero__items">
+                <p class="hero__text">Check your</p>
+                <h1 class="hero__title">autumn style</h1>
+                <h2 class="hero__subtitle">All the trends you need this season</h2>
             </div>
-        </section>
-        <!-- предложения и скидки -->
-        <section class="offers center">
-            <div class="container">
-                <div class="offers__items">
-                    <div class="offers__item offers__item-a">
-                        <!-- карусель -->
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./img/offers/1.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/offers/2.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./img/offers/3.jpg" class="d-block w-100" alt="...">
-                                </div>
+            <a class="hero__link" href="#">read it now<i class="fa fa-angle-right padding-left"
+                    aria-hidden="true"></i></a>
+        </div>
+    </section>
+    <!-- предложения и скидки -->
+    <section class="offers center">
+        <div class="container">
+            <div class="offers__items">
+                <div class="offers__item offers__item-a">
+                    <!-- карусель -->
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/offers/1.jpg" class="d-block w-100" alt="...">
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <!-- // карусель -->
-                        <p class="offers__size">770 X 430 PX</p>
-                        <div class="offers__info">
-                            <div class="offers__block">
-                                <div class="offers__header">
-                                    <span class="offers__span"></span>
-                                    <h3 class="offers__title padding-left padding-right">
-                                        exclusive
-                                    </h3>
-                                    <span class="offers__span"></span>
-                                </div>
-                                <p class="offers__text">discount codes & offers</p>
-
+                            <div class="carousel-item">
+                                <img src="./img/offers/2.jpg" class="d-block w-100" alt="...">
                             </div>
-                            <a href="#" class="offers__link">get your discount<i class="fa fa-angle-right padding-left"
-                                    aria-hidden="true"></i></a>
+                            <div class="carousel-item">
+                                <img src="./img/offers/3.jpg" class="d-block w-100" alt="...">
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div class="offers__item offers__item-b">
-                        <p class="offers__size offers__size_b">370 X 710 PX</p>
-                        <div class="offers__info offers__info_b">
-                            <p class="offers__text offers__text_b-up">the</p>
-                            <div class="offers__header offers__header_b">
-                                <span class="offers__span offers__span_b"></span>
-                                <h3 class="offers__title offers__title_b padding-left padding-right">
-                                    hottest styles
-                                </h3>
-                                <span class="offers__span offers__span_b"></span>
-                            </div>
-                            <p class="offers__text offers__text_b">are here</p>
-                            <a href="#" class="offers__link offers__link_b">get the look<i
-                                    class="fa fa-angle-right padding-left" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="offers__item offers__item-c">
-                        <p class="offers__size">370 X 250 PX</p>
-                        <div class="offers__info offers__info_c">
+                    <!-- // карусель -->
+                    <p class="offers__size">770 X 430 PX</p>
+                    <div class="offers__info">
+                        <div class="offers__block">
                             <div class="offers__header">
-                                <h3 class="offers__title offers__title_c padding-left padding-right">
-                                    jewelry
+                                <span class="offers__span"></span>
+                                <h3 class="offers__title padding-left padding-right">
+                                    exclusive
                                 </h3>
+                                <span class="offers__span"></span>
                             </div>
-                            <p class="offers__text offers__text_c">every third item is free!</p>
-                            <a href="#" class="offers__link">buy now<i class="fa fa-angle-right padding-left"
-                                    aria-hidden="true"></i></a>
+                            <p class="offers__text">discount codes & offers</p>
+
+                        </div>
+                        <a href="#" class="offers__link">get your discount<i class="fa fa-angle-right padding-left"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="offers__item offers__item-b">
+                    <p class="offers__size offers__size_b">370 X 710 PX</p>
+                    <div class="offers__info offers__info_b">
+                        <p class="offers__text offers__text_b-up">the</p>
+                        <div class="offers__header offers__header_b">
+                            <span class="offers__span offers__span_b"></span>
+                            <h3 class="offers__title offers__title_b padding-left padding-right">
+                                hottest styles
+                            </h3>
+                            <span class="offers__span offers__span_b"></span>
+                        </div>
+                        <p class="offers__text offers__text_b">are here</p>
+                        <a href="#" class="offers__link offers__link_b">get the look<i
+                                class="fa fa-angle-right padding-left" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="offers__item offers__item-c">
+                    <p class="offers__size">370 X 250 PX</p>
+                    <div class="offers__info offers__info_c">
+                        <div class="offers__header">
+                            <h3 class="offers__title offers__title_c padding-left padding-right">
+                                jewelry
+                            </h3>
+                        </div>
+                        <p class="offers__text offers__text_c">every third item is free!</p>
+                        <a href="#" class="offers__link">buy now<i class="fa fa-angle-right padding-left"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="offers__item offers__item-d">
+                    <p class="offers__size">370 X 710 PX</p>
+                    <div class="offers__info offers__info_d">
+                        <p class="offers__text offers__text_d-up">lookbook</p>
+                        <div class="offers__header offers__header_d">
+                            <span class="offers__span offers__span_d"></span>
+                            <h3 class="offers__title offers__title_d padding-left padding-right">
+                                women
+                            </h3>
+                            <span class="offers__span offers__span_d"></span>
+                        </div>
+                        <p class="offers__text offers__text_d">autumn 2013</p>
+                        <a href="#" class="offers__link offers__link_d">get the look<i
+                                class="fa fa-angle-right padding-left" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="offers__item offers__item-e">
+                    <p class="offers__size">370 X 250 PX</p>
+                    <div class="offers__info offers__info_e">
+                        <div class="offers__header">
+                            <span class="offers__span offers__span_e"></span>
+                            <h3 class="offers__title offers__title_e padding-left padding-right">
+                                accessories
+                            </h3>
+                            <span class="offers__span offers__span_e"></span>
+                        </div>
+                        <p class="offers__text offers__text_e">Complete your style</p>
+                        <a href="#" class="offers__link">get the look<i class="fa fa-angle-right padding-left"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="offers__item offers__item-f">
+                    <p class="offers__size">370 X 250 PX</p>
+                    <div class="offers__info offers__info_f">
+                        <div class="offers__header">
+                            <h3 class="offers__title offers__title_f padding-left padding-right">
+                                what's new?
+                            </h3>
                         </div>
                     </div>
-                    <div class="offers__item offers__item-d">
-                        <p class="offers__size">370 X 710 PX</p>
-                        <div class="offers__info offers__info_d">
-                            <p class="offers__text offers__text_d-up">lookbook</p>
-                            <div class="offers__header offers__header_d">
-                                <span class="offers__span offers__span_d"></span>
-                                <h3 class="offers__title offers__title_d padding-left padding-right">
-                                    women
-                                </h3>
-                                <span class="offers__span offers__span_d"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cards -->
+    <section class="cards">
+        <div class="container">
+            <div class="cards__content">
+                <!-- меню -->
+                <div class="cards-header">
+                    <div class="cards-header__nav">
+                        <ul class="cards-header__list">
+                            <li class="cards-header__list-item"><a class="navigation-menu__link cards-header__list-link"
+                                    href="#">new arrivals</a>
+                            </li>
+                            <li class="cards-header__list-item"><a class="navigation-menu__link cards-header__list-link"
+                                    href="#">Featured</a></li>
+                            <li class="cards-header__list-item"><a class="navigation-menu__link cards-header__list-link"
+                                    href="#">Special</a></li>
+                            <li class="cards-header__list-item"><a class="navigation-menu__link cards-header__list-link"
+                                    href="#">bestsellers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- карточки продуктов -->
+                <div class="cards-product">
+                    <!-- card1 -->
+                    <div class="cards-product__item">
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct1"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
+                            <p class="cards-product__price ">$187</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
+                            <p class="cards-product__price" style="display: none;">$187</p>
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
                             </div>
-                            <p class="offers__text offers__text_d">autumn 2013</p>
-                            <a href="#" class="offers__link offers__link_d">get the look<i
-                                    class="fa fa-angle-right padding-left" aria-hidden="true"></i></a>
                         </div>
                     </div>
-                    <div class="offers__item offers__item-e">
-                        <p class="offers__size">370 X 250 PX</p>
-                        <div class="offers__info offers__info_e">
-                            <div class="offers__header">
-                                <span class="offers__span offers__span_e"></span>
-                                <h3 class="offers__title offers__title_e padding-left padding-right">
-                                    accessories
-                                </h3>
-                                <span class="offers__span offers__span_e"></span>
+                    <!-- card2 -->
+                    <div class="cards-product__item">
+                        <a href="#">
+                            <p class="cards-product__sale cards-product__sale_pink">-50%</p>
+                        </a>
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct2"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <p class="cards-product__price cards-product__price_discount">$187</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <p class="cards-product__price cards-product__price-show">$100</p>
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
                             </div>
-                            <p class="offers__text offers__text_e">Complete your style</p>
-                            <a href="#" class="offers__link">get the look<i class="fa fa-angle-right padding-left"
-                                    aria-hidden="true"></i></a>
                         </div>
                     </div>
-                    <div class="offers__item offers__item-f">
-                        <p class="offers__size">370 X 250 PX</p>
-                        <div class="offers__info offers__info_f">
-                            <div class="offers__header">
-                                <h3 class="offers__title offers__title_f padding-left padding-right">
-                                    what's new?
-                                </h3>
+                    <!-- card3 -->
+                    <div class="cards-product__item">
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct3"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
+                            <p class="cards-product__price">$478</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
+                            <p class="cards-product__price" style="display: none;">$187</p>
+
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card4 -->
+                    <div class="cards-product__item">
+                        <a href="#">
+                            <p class="cards-product__sale cards-product__sale_black">NEW</p>
+                        </a>
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct4"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
+                            <p class="cards-product__price">$1150</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
+                            <p class="cards-product__price" style="display: none;">$187</p>
+
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card5 -->
+                    <div class="cards-product__item">
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct5"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
+                            <p class="cards-product__price ">$248</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
+                            <p class="cards-product__price" style="display: none;">$187</p>
+
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card6 -->
+                    <div class="cards-product__item">
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct6"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$654</p> -->
+                            <p class="cards-product__price">$654</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
+                            <p class="cards-product__price" style="display: none;">$187</p>
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card7 -->
+                    <div class="cards-product__item">
+                        <a href="#">
+                            <p class="cards-product__sale cards-product__sale_gray">Out of
+                                stock</p>
+                        </a>
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct7"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <p class="cards-product__price cards-product__price_discount">$187</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <p class="cards-product__price cards-product__price-show">$214</p>
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card8 -->
+                    <div class="cards-product__item">
+                        <p class="offers__size cards-product__item-size">270 x 350 px</p>
+                        <a href="#openProduct8"><img src="./img/cards/placeholder.png" alt="cards"
+                                class="cards-product__img"></a>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Carded Cotton Shawl</p>
+                            <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
+                            <p class="cards-product__price">$147</p>
+                        </div>
+                        <div class="cards-product__info">
+                            <p class="cards-product__title">Cardigan</p>
+                            <p class="cards-product__price" style="display: none;">$187</p>
+                        </div>
+                        <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
+                                aria-hidden="true"></i></p>
+                        <div class="cards-hover">
+                            <div class="cards-hover__block">
+                                <div class="cards-hover__items">
+                                    <a href="#color1">
+                                        <div class="cards-hover__item cards-hover__item_a"></div>
+                                    </a>
+                                    <a href="#color2">
+                                        <div class="cards-hover__item cards-hover__item_b"></div>
+                                    </a>
+                                    <a href="#color3">
+                                        <div class="cards-hover__item cards-hover__item_c"></div>
+                                    </a>
+                                </div>
+                                <div class="cards-hover__add-info">
+                                    <p class="cards-hover__add"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">add to
+                                            bag</a></p><span class="cards-hover__span">|</span>
+                                    <p class="cards-hover__info"><a class="navigation-menu__link cards-hover__wish-link"
+                                            href="#">more
+                                            info</a></p>
+                                </div>
+                                <div class="cards-hover__wish-compare">
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Wishlist</a></p>
+                                    <p class="cards-hover__wish-title"><a
+                                            class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
+                                            Compare</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- cards -->
-        <section class="cards">
-            <div class="container">
-                <div class="cards__content">
-                    <!-- меню -->
-                    <div class="cards-header">
-                        <div class="cards-header__nav">
-                            <ul class="cards-header__list">
-                                <li class="cards-header__list-item"><a
-                                        class="navigation-menu__link cards-header__list-link" href="#">new arrivals</a>
-                                </li>
-                                <li class="cards-header__list-item"><a
-                                        class="navigation-menu__link cards-header__list-link" href="#">Featured</a></li>
-                                <li class="cards-header__list-item"><a
-                                        class="navigation-menu__link cards-header__list-link" href="#">Special</a></li>
-                                <li class="cards-header__list-item"><a
-                                        class="navigation-menu__link cards-header__list-link" href="#">bestsellers</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- карточки продуктов -->
-                    <div class="cards-product">
-                        <!-- card1 -->
-                        <div class="cards-product__item">
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct1"><img src="./img/cards/placeholder.png" alt="cards"
-                                    class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
-                                <p class="cards-product__price ">$187</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
-                                <p class="cards-product__price" style="display: none;">$187</p>
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card2 -->
-                        <div class="cards-product__item">
-                            <a href="#">
-                                <p class="cards-product__sale cards-product__sale_pink">-50%</p>
-                            </a>
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct2"><img src="./img/cards/placeholder.png" alt="cards"
-                                    class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <p class="cards-product__price cards-product__price_discount">$187</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <p class="cards-product__price cards-product__price-show">$100</p>
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card3 -->
-                        <div class="cards-product__item">
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct3"><img src="./img/cards/placeholder.png" alt="cards"
-                                    class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
-                                <p class="cards-product__price">$478</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
-                                <p class="cards-product__price" style="display: none;">$187</p>
-
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card4 -->
-                        <div class="cards-product__item">
-                            <a href="#">
-                                <p class="cards-product__sale cards-product__sale_black">NEW</p>
-                            </a>
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct4"><img src="./img/cards/placeholder.png" alt="cards"
-                                    class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
-                                <p class="cards-product__price">$1150</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
-                                <p class="cards-product__price" style="display: none;">$187</p>
-
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card5 -->
-                        <div class="cards-product__item">
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct5"><img src="./img/cards/placeholder.png" alt="cards"
-                                    class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
-                                <p class="cards-product__price ">$248</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
-                                <p class="cards-product__price" style="display: none;">$187</p>
-
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card6 -->
-                        <div class="cards-product__item">
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct6"><img src="./img/cards/placeholder.png" alt="cards" class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$654</p> -->
-                                <p class="cards-product__price">$654</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <!-- <p class="cards-product__price cards-product__price-show">$187</p> -->
-                                <p class="cards-product__price" style="display: none;">$187</p>
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card7 -->
-                        <div class="cards-product__item">
-                            <a href="#">
-                                <p class="cards-product__sale cards-product__sale_gray">Out of
-                                    stock</p>
-                            </a>
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct7"><img src="./img/cards/placeholder.png" alt="cards" class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <p class="cards-product__price cards-product__price_discount">$187</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <p class="cards-product__price cards-product__price-show">$214</p>
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- card8 -->
-                        <div class="cards-product__item">
-                            <p class="offers__size cards-product__item-size">270 x 350 px</p>
-                            <a href="#openProduct8"><img src="./img/cards/placeholder.png" alt="cards" class="cards-product__img"></a>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Carded Cotton Shawl</p>
-                                <!-- <p class="cards-product__price cards-product__price_discount">$187</p> -->
-                                <p class="cards-product__price">$147</p>
-                            </div>
-                            <div class="cards-product__info">
-                                <p class="cards-product__title">Cardigan</p>
-                                <p class="cards-product__price" style="display: none;">$187</p>
-                            </div>
-                            <p class="cards-product__stars cards-product__stars_disabled"><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-                                    aria-hidden="true"></i><i class="fa fa-star cards-product__stars_gray"
-                                    aria-hidden="true"></i></p>
-                            <div class="cards-hover">
-                                <div class="cards-hover__block">
-                                    <div class="cards-hover__items">
-                                        <a href="#color1">
-                                            <div class="cards-hover__item cards-hover__item_a"></div>
-                                        </a>
-                                        <a href="#color2">
-                                            <div class="cards-hover__item cards-hover__item_b"></div>
-                                        </a>
-                                        <a href="#color3">
-                                            <div class="cards-hover__item cards-hover__item_c"></div>
-                                        </a>
-                                    </div>
-                                    <div class="cards-hover__add-info">
-                                        <p class="cards-hover__add"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">add to
-                                                bag</a></p><span class="cards-hover__span">|</span>
-                                        <p class="cards-hover__info"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">more
-                                                info</a></p>
-                                    </div>
-                                    <div class="cards-hover__wish-compare">
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Wishlist</a></p>
-                                        <p class="cards-hover__wish-title"><a
-                                                class="navigation-menu__link cards-hover__wish-link" href="#">+ Add to
-                                                Compare</a></p>
-                                    </div>
-                                </div>
-                            </div>
+            <!-- показать больше -->
+            <div class="cards-show-more">
+                <span class="cards-show-more__span"></span>
+                <p class="cards-show-more__title"><a class="navigation-menu__link cards-hover__wish-link"
+                        href="#showMore">Show More</a></p>
+                <span class="cards-show-more__span"></span>
+            </div>
+        </div>
+    </section>
+    <!-- подвал -->
+    <footer class="footer center">
+        <div class="container">
+            <div class="footer-info">
+                <div class="footer-info__about">
+                    <h3 class="footer-info__title">About fengo shop</h3>
+                    <div class="footer-info__content">
+                        <img class="footer-info__img" src="./img/cards/placeholder.png" alt="">
+                        <div class="footer-info__text-block">
+                            <p class="footer-info__text">Morbi pretium odio in dapibus varius. Integer sagittis, tellus ac
+                                venenatis venenatis, ipsum ligula auctor lectus,suscipit velit quam quis turpis. Fusce
+                                scelerisque aliquet commodo. Sed lobortis laoreet risus vitae tincidunt. Ut consectetur
+                                nec purus in egestas. Pellentesque vehicula urna purus.
+                            </p>
+                            <a class="navigation-menu__link footer-info__link" href="#moreAbout">Read more</a>
                         </div>
                     </div>
                 </div>
-                <!-- показать больше -->
-                <div class="cards-show-more">
-                    <span class="cards-show-more__span"></span>
-                    <p class="cards-show-more__title"><a class="navigation-menu__link cards-hover__wish-link" href="#showMore">Show More</a></p>
-                    <span class="cards-show-more__span"></span>
-                </div>
             </div>
-        </section>
-        <!-- подвал -->
-        <footer class="footer center">
-            <div class="container">
-                <div class="footer-info">
-                    
-                </div>
-            </div>
-            <div class="footer-bottom"></div>
-        </footer>
+        </div>
+        </div>
+        <div class="footer-bottom"></div>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
 
 </html>
