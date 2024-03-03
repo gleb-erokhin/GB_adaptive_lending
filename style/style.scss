@@ -727,8 +727,13 @@ body {
 
 // блок Футер
 .footer {
+    color: #888888;
+    height: 1504px;
     background-color: #1f1f1f;
     .footer-info {
         padding-top: 90px;
+        display: grid;
+        grid-template-columns: 476px 400px 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
 }
