@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 body {
     font-family: "Merriweather Sans";
     font-size: 14px;
@@ -153,7 +157,8 @@ body {
         font-size: 30px;
         line-height: 20px;
         font-weight: 700;
-        color: #7c7c7c;;
+        color: #7c7c7c;
+        ;
         padding-bottom: 18px;
     }
 
@@ -171,14 +176,16 @@ body {
         font-size: 35px;
         line-height: 33px;
         font-weight: 700;
-        color: #aba5a5;;
+        color: #aba5a5;
+        ;
         padding-bottom: 28px;
     }
 
     &__link {
         line-height: 21px;
         font-weight: 700;
-        color: #aba5a5;;
+        color: #aba5a5;
+        ;
         cursor: pointer;
     }
 }
@@ -492,5 +499,22 @@ body {
 
 // блок карточки
 .cards {
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .cards-content__list {
+        margin-bottom: 0;
+        padding-left: 0;
+
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+
+        &__link {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 700;
+            color: $colorTextSiteActive;
+        }
+    }
 }

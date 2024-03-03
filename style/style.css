@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 body {
   font-family: "Merriweather Sans";
   font-size: 14px;
@@ -403,4 +407,22 @@ body {
   line-height: 22px;
   font-weight: 700;
   color: #ffffff;
+}
+
+.cards {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cards .cards-content__list {
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.cards .cards-content__list__link {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #444444;
 }/*# sourceMappingURL=style.css.map */
