@@ -476,7 +476,7 @@ body {
   text-decoration: line-through;
 }
 .cards .cards-product__price-show {
-  display: none;
+  display: initial;
 }
 .cards .cards-product__stars {
   padding-top: 6px;
