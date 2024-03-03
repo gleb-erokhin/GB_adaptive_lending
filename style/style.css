@@ -413,20 +413,20 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.cards .cards-content__list {
+.cards .cards-header__list {
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
   justify-content: center;
   gap: 70px;
 }
-.cards .cards-content__list-link {
+.cards .cards-header__list-link {
   font-size: 16px;
   line-height: 19px;
   font-weight: 700;
   color: #444444;
 }
-.cards .cards-content__list-link:hover {
-  border-bottom: 1px solid black;
+.cards .cards-header__list-link:hover {
+  border-bottom: 2px solid #444444;
   padding-bottom: 9px;
 }/*# sourceMappingURL=style.css.map */
