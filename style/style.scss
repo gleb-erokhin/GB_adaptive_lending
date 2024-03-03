@@ -502,7 +502,7 @@ body {
 // блок карточки
 .cards {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 
     .cards-header {
         &__list {
@@ -726,4 +726,9 @@ body {
 }
 
 // блок Футер
-
+.footer {
+    background-color: #1f1f1f;
+    .footer-info {
+        padding-top: 90px;
+    }
+}

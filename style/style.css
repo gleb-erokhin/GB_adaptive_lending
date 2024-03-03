@@ -416,7 +416,7 @@ body {
 
 .cards {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 .cards .cards-header__list {
   margin-bottom: 0;
@@ -597,4 +597,11 @@ body {
 
 .cards-hover__wish-link:hover {
   color: #923349;
+}
+
+.footer {
+  background-color: #1f1f1f;
+}
+.footer .footer-info {
+  padding-top: 90px;
 }/*# sourceMappingURL=style.css.map */
