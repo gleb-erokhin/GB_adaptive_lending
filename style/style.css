@@ -464,6 +464,13 @@ body {
   font-weight: 700;
   color: #222222;
 }
+.cards .cards-product__price_discount {
+  color: #999999;
+  text-decoration: line-through;
+}
+.cards .cards-product__price-show {
+  display: none;
+}
 .cards .cards-product__stars {
   padding-top: 6px;
   color: #777777;

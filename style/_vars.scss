@@ -8,3 +8,18 @@ $colorTextSiteActive: #444444;
 $colorBlack: #222222;
 $colorMainMenu: #565656;
 $colorMainAccount: #7e7e7e;
+
+// добавление к карточке товара звезд отзыва, по умолчанию они скрыты
+// необходиммо добавить параграфу класс cards-product__stars_disabled
+$showCardsStars: none;
+
+// добавление скидки для товара, убирает цену зачеркивая ее
+// добавляя ниже новую цену
+// initial - показать новую цену, none - скрыто
+// cards-product__price-show
+$showDiscountPrice: none;
+// необходимо добавить класс цене
+// cards-product__price_discount
+$colorOldPrice: #999999;
+// line-through - зачеркнуто, none - нормльное отображение
+$textDecoration: line-through;

@@ -561,6 +561,15 @@ body {
             color: $colorBlack;
         }
 
+        &__price_discount {
+            color: $colorOldPrice;
+            text-decoration: $textDecoration;
+        }
+
+        &__price-show {
+            display: $showDiscountPrice;
+        }
+
         &__stars {
             padding-top: 6px;
             color: #777777;
@@ -571,7 +580,7 @@ body {
         }
 
         &__stars_disabled {
-            display: none;
+            display: $showCardsStars;
         }
     }
 
