@@ -528,8 +528,10 @@ body {
     }
 
     .cards-product {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         padding-top: 62px;
+        gap: 30px;
 
         &__img {
             padding-bottom: 24px;
@@ -537,8 +539,9 @@ body {
 
         &__item {
             position: relative;
+            min-width: 270px;
             min-height: 483px;
-            background-color: #e7e1e1;
+            // background-color: #e7e1e1;
         }
 
         &__item-size {
