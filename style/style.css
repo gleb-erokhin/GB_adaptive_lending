@@ -447,6 +447,11 @@ body {
   min-height: 483px;
   background-color: #e7e1e1;
 }
+.cards .cards-product__item-size {
+  top: 35%;
+  left: 0;
+  text-align: center;
+}
 .cards .cards-product__info {
   display: flex;
   justify-content: space-between;

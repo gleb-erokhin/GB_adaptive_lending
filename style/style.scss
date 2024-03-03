@@ -541,6 +541,12 @@ body {
             background-color: #e7e1e1;
         }
 
+        &__item-size {
+            top: 35%;
+            left: 0;
+            text-align: center;
+        }
+
         &__info {
             display: flex;
             justify-content: space-between;
