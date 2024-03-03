@@ -12,6 +12,10 @@ li {
   list-style: none;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 body {
   font-family: "Merriweather Sans";
   font-size: 14px;
@@ -429,4 +433,55 @@ body {
 .cards .cards-header__list-link:hover {
   border-bottom: 2px solid #444444;
   padding-bottom: 9px;
+}
+.cards .cards-product {
+  display: flex;
+  padding-top: 62px;
+}
+.cards .cards-product__item {
+  position: relative;
+  min-height: 470px;
+  background-color: #aba5a5;
+}
+.cards .cards-product__info {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .cards-product__title {
+  font-size: 13px;
+  line-height: 19px;
+  color: #444444;
+  text-transform: none;
+}
+.cards .cards-product__price {
+  font-family: Cousine;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 700;
+  color: #222222;
+}
+.cards .cards-product__stars {
+  padding-top: 6px;
+  color: #777777;
+}
+.cards .cards-product__stars_gray {
+  color: #cecece;
+}
+.cards .cards-product__stars_disabled {
+  display: none;
+}
+.cards .cards-hover__block {
+  display: none;
+}
+.cards .cards-hover__add-info {
+  min-width: 270px;
+  display: flex;
+  justify-content: center;
+}
+.cards .cards-product__item:hover .cards-hover__block {
+  position: absolute;
+  top: 418px;
+  display: initial;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -15,6 +15,10 @@ li {
     list-style: none;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 body {
     font-family: "Merriweather Sans";
     font-size: 14px;
@@ -158,7 +162,6 @@ body {
         line-height: 20px;
         font-weight: 700;
         color: #7c7c7c;
-        ;
         padding-bottom: 18px;
     }
 
@@ -177,7 +180,6 @@ body {
         line-height: 33px;
         font-weight: 700;
         color: #aba5a5;
-        ;
         padding-bottom: 28px;
     }
 
@@ -185,7 +187,6 @@ body {
         line-height: 21px;
         font-weight: 700;
         color: #aba5a5;
-        ;
         cursor: pointer;
     }
 }
@@ -503,14 +504,13 @@ body {
     padding-bottom: 60px;
 
     .cards-header {
-    
         &__list {
-        margin-bottom: 0;
-        padding-left: 0;
+            margin-bottom: 0;
+            padding-left: 0;
 
-        display: flex;
-        justify-content: center;
-        gap: 70px;
+            display: flex;
+            justify-content: center;
+            gap: 70px;
         }
 
         &__list-link {
@@ -527,6 +527,66 @@ body {
     }
 
     .cards-product {
-        
+        display: flex;
+        padding-top: 62px;
+
+        &__item {
+            position: relative;
+            min-height: 470px;
+            background-color: #aba5a5;
+        }
+
+        &__info {
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__title {
+            font-size: 13px;
+            line-height: 19px;
+            color: $colorTextSiteActive;
+            text-transform: none;
+        }
+
+        &__price {
+            font-family: Cousine;
+            font-size: 15px;
+            line-height: 17px;
+            font-weight: 700;
+            color: $colorBlack;
+        }
+
+        &__stars {
+            padding-top: 6px;
+            color: #777777;
+        }
+
+        &__stars_gray {
+            color: #cecece;
+        }
+
+        &__stars_disabled {
+            display: none;
+        }
+    }
+
+    .cards-hover {
+        &__block {
+            display: none;
+        }
+
+        &__add-info {
+            min-width: 270px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .cards-product__item:hover .cards-hover__block {
+        position: absolute;
+        top: 418px;
+        display: initial;
+        background-color: white;
     }
 }
