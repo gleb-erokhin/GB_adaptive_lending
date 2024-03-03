@@ -537,6 +537,41 @@ body {
             padding-bottom: 24px;
         }
 
+        &__sale {
+            max-width: 90px;
+            position: absolute;
+            padding: 8px 12px;
+            top: 10px;
+            left: -3px;
+
+            font-family: Arial;
+            font-size: 17px;
+            line-height: 17px;
+            font-weight: 900;
+            transition: transform 0.5s ease-out;
+        }
+
+        &__sale:hover {
+            transform: scale(1.1);
+        }
+
+        &__sale_pink {
+            color: #cf4647;
+            border: 3px solid #cf4647;
+        }
+        &__sale_black {
+            border: 3px solid #524656;
+            color: #524656;
+        }
+
+        &__sale_gray {
+            font-size: 15px;
+            line-height: 12px;
+            font-weight: 700;
+            color: $colorTextSite;
+            border: 3px solid $colorTextSite;
+        }
+
         &__item {
             position: relative;
             min-width: 270px;

@@ -444,6 +444,36 @@ body {
 .cards .cards-product__img {
   padding-bottom: 24px;
 }
+.cards .cards-product__sale {
+  max-width: 90px;
+  position: absolute;
+  padding: 8px 12px;
+  top: 10px;
+  left: -3px;
+  font-family: Arial;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 900;
+  transition: transform 0.5s ease-out;
+}
+.cards .cards-product__sale:hover {
+  transform: scale(1.1);
+}
+.cards .cards-product__sale_pink {
+  color: #cf4647;
+  border: 3px solid #cf4647;
+}
+.cards .cards-product__sale_black {
+  border: 3px solid #524656;
+  color: #524656;
+}
+.cards .cards-product__sale_gray {
+  font-size: 15px;
+  line-height: 12px;
+  font-weight: 700;
+  color: #999999;
+  border: 3px solid #999999;
+}
 .cards .cards-product__item {
   position: relative;
   min-width: 270px;
