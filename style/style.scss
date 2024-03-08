@@ -732,13 +732,21 @@ body {
     height: 1504px;
     background-color: #1f1f1f;
 
-    .footer-info {
-        padding-top: 90px;
-        display: grid;
-        grid-template-columns: 476px 400px 1fr;
-        // grid-template-rows: repeat(4, 1fr);
-        grid-template-rows: 294px 385px 412px 227px;
-        
+    .footer-block {
+        display: flex;
+    }
+
+    .footer-left {
+        min-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer-center {
+        min-width: 400px;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
     }
 
     .footer-about {
@@ -746,6 +754,7 @@ body {
         flex-direction: column;
         gap: 34px;
         // max-height: 294px;
+        min-width: 440px;
 
         padding-bottom: 60px;
         padding-right: 39px;
@@ -767,6 +776,7 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            width: 240px;
         }
 
         &__img {
@@ -784,9 +794,14 @@ body {
         &__link {}
     }
 
+    .footer-span {
+        width: 850px;
+        border-bottom: 2px solid white;
+    }
+
     .footer-blog {
-        grid-column: 1 / 2;
         padding-right: 25px;
+        padding-top: 60px;
 
         &__title {
             font-family: 'Cousine';
@@ -812,6 +827,7 @@ body {
             line-height: 20px;
             color: #999999;
             padding-top: 20px;
+            width: 205px;
         }
     }
 
