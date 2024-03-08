@@ -736,16 +736,19 @@ body {
         padding-top: 90px;
         display: grid;
         grid-template-columns: 476px 400px 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        // grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: 294px 385px 412px 227px;
+        
+    }
 
-        &__about {
-            display: flex;
-            flex-direction: column;
-            gap: 34px;
+    .footer-about {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        // max-height: 294px;
 
-            padding-bottom: 60px;
-            padding-right: 39px;
-        }
+        padding-bottom: 60px;
+        padding-right: 39px;
 
         &__title {
             font-family: 'Cousine';
@@ -779,6 +782,37 @@ body {
         }
 
         &__link {}
+    }
+
+    .footer-blog {
+        grid-column: 1 / 2;
+        padding-right: 25px;
+
+        &__title {
+            font-family: 'Cousine';
+            font-size: 17px;
+            line-height: 20px;
+            color: #b6b6b6;
+            margin-bottom: 35px;
+        }
+
+        &__content {
+            display: flex;
+            gap: 40px;
+        }
+
+        &__img {
+            width: 205px;
+            height: 150px;
+        }
+
+        &__text {
+            font-family: 'Cousine';
+            font-size: 13px;
+            line-height: 20px;
+            color: #999999;
+            padding-top: 20px;
+        }
     }
 
     .footer-bottom {}

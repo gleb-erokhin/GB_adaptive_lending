@@ -608,38 +608,64 @@ body {
   padding-top: 90px;
   display: grid;
   grid-template-columns: 476px 400px 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 294px 385px 412px 227px;
 }
-.footer .footer-info__about {
+.footer .footer-about {
   display: flex;
   flex-direction: column;
   gap: 34px;
   padding-bottom: 60px;
   padding-right: 39px;
 }
-.footer .footer-info__title {
+.footer .footer-about__title {
   font-family: "Cousine";
   font-size: 17px;
   line-height: 20px;
   color: #b6b6b6;
   margin-bottom: 0;
 }
-.footer .footer-info__content {
+.footer .footer-about__content {
   display: flex;
   gap: 19px;
 }
-.footer .footer-info__text-block {
+.footer .footer-about__text-block {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.footer .footer-info__img {
+.footer .footer-about__img {
   width: 180px;
   height: 180px;
 }
-.footer .footer-info__text {
+.footer .footer-about__text {
   font-family: "Arial";
   line-height: 20px;
   color: #888888;
   text-transform: none;
+}
+.footer .footer-blog {
+  grid-column: 1/2;
+  padding-right: 25px;
+}
+.footer .footer-blog__title {
+  font-family: "Cousine";
+  font-size: 17px;
+  line-height: 20px;
+  color: #b6b6b6;
+  margin-bottom: 35px;
+}
+.footer .footer-blog__content {
+  display: flex;
+  gap: 40px;
+}
+.footer .footer-blog__img {
+  width: 205px;
+  height: 150px;
+}
+.footer .footer-blog__text {
+  font-family: "Cousine";
+  font-size: 13px;
+  line-height: 20px;
+  color: #999999;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
