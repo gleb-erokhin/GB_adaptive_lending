@@ -615,14 +615,15 @@ body {
 }
 .footer .footer-center {
   min-width: 400px;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 2px solid #2a2a2a;
+  border-right: 2px solid #2a2a2a;
 }
 .footer .footer-about {
   display: flex;
   flex-direction: column;
   gap: 34px;
   min-width: 440px;
+  padding-top: 90px;
   padding-bottom: 60px;
   padding-right: 39px;
 }
@@ -653,9 +654,15 @@ body {
   color: #888888;
   text-transform: none;
 }
+.footer .footer-about__link {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #b6b6b6;
+}
 .footer .footer-span {
   width: 850px;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #2a2a2a;
 }
 .footer .footer-blog {
   padding-right: 25px;
