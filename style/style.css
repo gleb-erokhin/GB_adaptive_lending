@@ -667,6 +667,7 @@ body {
 .footer .footer-blog {
   padding-right: 25px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer .footer-blog__title {
   font-family: "Cousine";
@@ -690,4 +691,57 @@ body {
   color: #999999;
   padding-top: 20px;
   width: 205px;
+}
+.footer .footer-forms {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 25px;
+}
+.footer .footer-forms__title {
+  font-family: "Cousine";
+  font-size: 17px;
+  line-height: 20px;
+  color: #b6b6b6;
+  margin-bottom: 35px;
+}
+.footer .footer-forms__content {
+  display: flex;
+  gap: 20px;
+}
+.footer .footer-forms__block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-forms__input {
+  padding: 9px 12px;
+  width: 215px;
+  background-color: rgba(42, 42, 42, 0);
+  border: 1px solid #666666;
+}
+.footer .footer-forms__img {
+  height: 215px;
+}
+.footer .footer-forms__btn {
+  border: none;
+}
+.footer .footer-forms__link {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #aeaeae;
+  padding-top: 10px;
+}
+.footer .footer-email {
+  padding: 60px 25px 110px 0;
+}
+.footer .footer-email__enter-email {
+  min-width: 450px;
+  padding: 10px 20px;
+  font-family: "Cousine";
+  font-size: 13px;
+  line-height: 27px;
+  color: #888888;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #666666;
 }/*# sourceMappingURL=style.css.map */
