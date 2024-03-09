@@ -737,8 +737,13 @@ body {
         font-size: 17px;
         line-height: 20px;
         color: #b6b6b6;
-        margin-bottom: 0;
+        margin-bottom: 34px;
     }
+
+    &__content {
+        display: flex;
+    }
+
     .footer-block {
         display: flex;
     }
@@ -759,7 +764,6 @@ body {
     .footer-about {
         display: flex;
         flex-direction: column;
-        gap: 34px;
         // max-height: 294px;
         min-width: 440px;
 
@@ -767,8 +771,7 @@ body {
         padding-bottom: 60px;
         padding-right: 39px;
 
-        &__content {
-            display: flex;
+        &_content {
             gap: 19px;
         }
 
@@ -808,10 +811,8 @@ body {
         padding-right: 25px;
         padding-top: 60px;
         padding-bottom: 60px;
-        
-        &__content {
-            // margin-top: 35px;
-            display: flex;
+
+        &_content {
             gap: 40px;
         }
 
@@ -835,16 +836,7 @@ body {
         padding-bottom: 60px;
         padding-right: 25px;
 
-        &__title {
-            font-family: "Cousine";
-            font-size: 17px;
-            line-height: 20px;
-            color: #b6b6b6;
-            margin-bottom: 35px;
-        }
-
-        &__content {
-            display: flex;
+        &_content {
             gap: 20px;
         }
 
@@ -895,6 +887,51 @@ body {
     }
 
     .footer-favorite {
+        padding: 90px 24px 60px 24px;
+        border-bottom: 2px solid #2a2a2a;
+
+        &_content {
+            gap: 50px;
+        }
+
+        &__text-block {
+            width: 150px;
+        }
+
+        &__info {
+            display: flex;
+            gap: 27px;
+            padding-top: 20px;
+        }
+
+        &__text {
+            width: 150px;
+            font-size: 12px;
+            line-height: 18px;
+            text-transform: none;
+            color: #888888;
+        }
+
+        &__price-items {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        &__price {
+            font-family: "Cousine";
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 400;
+            color: $colorMainSite;
+        }
+
+        &__sale {
+            font-family: 'Cousine';
+            line-height: 17px;
+            color: #8c8b8b;
+            text-decoration: line-through;
+        }
     }
 
     .footer-bottom {

@@ -608,7 +608,10 @@ body {
   font-size: 17px;
   line-height: 20px;
   color: #b6b6b6;
-  margin-bottom: 0;
+  margin-bottom: 34px;
+}
+.footer__content {
+  display: flex;
 }
 .footer .footer-block {
   display: flex;
@@ -627,14 +630,12 @@ body {
 .footer .footer-about {
   display: flex;
   flex-direction: column;
-  gap: 34px;
   min-width: 440px;
   padding-top: 90px;
   padding-bottom: 60px;
   padding-right: 39px;
 }
-.footer .footer-about__content {
-  display: flex;
+.footer .footer-about_content {
   gap: 19px;
 }
 .footer .footer-about__text-block {
@@ -668,8 +669,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer .footer-blog__content {
-  display: flex;
+.footer .footer-blog_content {
   gap: 40px;
 }
 .footer .footer-blog__img {
@@ -689,15 +689,7 @@ body {
   padding-bottom: 60px;
   padding-right: 25px;
 }
-.footer .footer-forms__title {
-  font-family: "Cousine";
-  font-size: 17px;
-  line-height: 20px;
-  color: #b6b6b6;
-  margin-bottom: 35px;
-}
-.footer .footer-forms__content {
-  display: flex;
+.footer .footer-forms_content {
   gap: 20px;
 }
 .footer .footer-forms__block {
@@ -736,6 +728,46 @@ body {
   color: #888888;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #666666;
+}
+.footer .footer-favorite {
+  padding: 90px 24px 60px 24px;
+  border-bottom: 2px solid #2a2a2a;
+}
+.footer .footer-favorite_content {
+  gap: 50px;
+}
+.footer .footer-favorite__text-block {
+  width: 150px;
+}
+.footer .footer-favorite__info {
+  display: flex;
+  gap: 27px;
+  padding-top: 20px;
+}
+.footer .footer-favorite__text {
+  width: 150px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: none;
+  color: #888888;
+}
+.footer .footer-favorite__price-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer-favorite__price {
+  font-family: "Cousine";
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer .footer-favorite__sale {
+  font-family: "Cousine";
+  line-height: 17px;
+  color: #8c8b8b;
+  text-decoration: line-through;
 }
 .footer .footer-bottom {
   border-top: 2px solid #2a2a2a;
