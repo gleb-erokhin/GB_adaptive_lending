@@ -732,6 +732,13 @@ body {
     // height: 1504px;
     background-color: #1f1f1f;
 
+    &__title {
+        font-family: "Cousine";
+        font-size: 17px;
+        line-height: 20px;
+        color: #b6b6b6;
+        margin-bottom: 0;
+    }
     .footer-block {
         display: flex;
     }
@@ -759,14 +766,6 @@ body {
         padding-top: 90px;
         padding-bottom: 60px;
         padding-right: 39px;
-
-        &__title {
-            font-family: "Cousine";
-            font-size: 17px;
-            line-height: 20px;
-            color: #b6b6b6;
-            margin-bottom: 0;
-        }
 
         &__content {
             display: flex;
@@ -809,16 +808,9 @@ body {
         padding-right: 25px;
         padding-top: 60px;
         padding-bottom: 60px;
-
-        &__title {
-            font-family: "Cousine";
-            font-size: 17px;
-            line-height: 20px;
-            color: #b6b6b6;
-            margin-bottom: 35px;
-        }
-
+        
         &__content {
+            // margin-top: 35px;
             display: flex;
             gap: 40px;
         }
@@ -900,6 +892,9 @@ body {
             background-color: rgba(255, 255, 255, 0);
             border: 1px solid #666666;
         }
+    }
+
+    .footer-favorite {
     }
 
     .footer-bottom {
