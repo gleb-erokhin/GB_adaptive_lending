@@ -601,7 +601,6 @@ body {
 
 .footer {
   color: #888888;
-  height: 1504px;
   background-color: #1f1f1f;
 }
 .footer .footer-block {
@@ -744,4 +743,44 @@ body {
   color: #888888;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #666666;
+}
+.footer .footer-bottom {
+  border-top: 2px solid #2a2a2a;
+}
+.footer .footer-bottom__cards {
+  display: flex;
+  gap: 14px;
+  padding-bottom: 10px;
+}
+.footer .footer-bottom__block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+.footer .footer-bottom__copy {
+  font-family: "Arial";
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: none;
+  color: #666666;
+  padding-bottom: 35px;
+}
+.footer .footer-bottom__right {
+  display: flex;
+  gap: 5px;
+}
+.footer .footer-bottom__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(59, 59, 59, 0);
+  border: 2px solid #999999;
+}
+.footer .footer-bottom__social-link {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #999999;
 }/*# sourceMappingURL=style.css.map */

@@ -729,7 +729,7 @@ body {
 // блок Футер
 .footer {
     color: #888888;
-    height: 1504px;
+    // height: 1504px;
     background-color: #1f1f1f;
 
     .footer-block {
@@ -865,7 +865,7 @@ body {
         &__input {
             padding: 9px 12px;
             width: 215px;
-            background-color: rgba(42, 42, 42, 0.0);
+            background-color: rgba(42, 42, 42, 0);
             border: 1px solid #666666;
         }
 
@@ -892,17 +892,60 @@ body {
         &__enter-email {
             min-width: 450px;
             padding: 10px 20px;
-            font-family: 'Cousine';
+            font-family: "Cousine";
             font-size: 13px;
             line-height: 27px;
             color: #888888;
 
-            background-color: rgba(255, 255, 255, 0.0);
+            background-color: rgba(255, 255, 255, 0);
             border: 1px solid #666666;
         }
     }
 
     .footer-bottom {
+        border-top: 2px solid #2a2a2a;
 
+        &__cards {
+            display: flex;
+            gap: 14px;
+            padding-bottom: 10px;
+        }
+
+        &__block {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 35px;
+        }
+
+        &__copy {
+            font-family: "Arial";
+            font-size: 12px;
+            line-height: 18px;
+            text-transform: none;
+            color: #666666;
+            padding-bottom: 35px;
+        }
+
+        &__right {
+            display: flex;
+            gap: 5px;
+        }
+
+        &__social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(59, 59, 59, 0);
+            border: 2px solid #999999;
+        }
+
+        &__social-link {
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 400;
+            color: #999999;
+        }
     }
 }
