@@ -737,7 +737,11 @@ body {
         font-size: 17px;
         line-height: 20px;
         color: #b6b6b6;
-        margin-bottom: 34px;
+        margin-bottom: 0px;
+    }
+
+    &__bottom {
+        padding-bottom: 34px;
     }
 
     &__content {
@@ -927,10 +931,44 @@ body {
         }
 
         &__sale {
-            font-family: 'Cousine';
+            font-family: "Cousine";
             line-height: 17px;
             color: #8c8b8b;
             text-decoration: line-through;
+        }
+    }
+
+    .footer-socials {
+        padding: 60px 24px 50px 24px;
+
+        &__header {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 28px;
+        }
+
+        &__follow {
+            padding: 6px 11px;
+            background-color: rgba(250, 250, 250, 0);
+            border: 1px solid #b5b5b5;
+
+            font-size: 12px;
+            line-height: 10px;
+            text-transform: uppercase;
+            color: #b5b5b5;
+        }
+
+        &__twit-title {
+            display: flex;
+            gap: 20px;
+        }
+
+        &__profile-subtitle {
+            font-family: 'Arial';
+            font-size: 13px;
+            line-height: 18px;
+            text-transform: none;
+            color: #777777;
         }
     }
 

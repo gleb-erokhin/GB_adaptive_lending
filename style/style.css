@@ -608,7 +608,10 @@ body {
   font-size: 17px;
   line-height: 20px;
   color: #b6b6b6;
-  margin-bottom: 34px;
+  margin-bottom: 0px;
+}
+.footer__bottom {
+  padding-bottom: 34px;
 }
 .footer__content {
   display: flex;
@@ -768,6 +771,34 @@ body {
   line-height: 17px;
   color: #8c8b8b;
   text-decoration: line-through;
+}
+.footer .footer-socials {
+  padding: 60px 24px 50px 24px;
+}
+.footer .footer-socials__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+}
+.footer .footer-socials__follow {
+  padding: 6px 11px;
+  background-color: rgba(250, 250, 250, 0);
+  border: 1px solid #b5b5b5;
+  font-size: 12px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #b5b5b5;
+}
+.footer .footer-socials__twit-title {
+  display: flex;
+  gap: 20px;
+}
+.footer .footer-socials__profile-subtitle {
+  font-family: "Arial";
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: none;
+  color: #777777;
 }
 .footer .footer-bottom {
   border-top: 2px solid #2a2a2a;
