@@ -635,6 +635,37 @@ body {
   border-left: 2px solid #2a2a2a;
   border-right: 2px solid #2a2a2a;
 }
+.footer .footer-right {
+  width: 670px;
+}
+.footer .footer-right__span {
+  border-bottom: 2px solid #2a2a2a;
+}
+.footer .footer-right .footer-navigation {
+  padding-bottom: 60px;
+}
+.footer .footer-right .footer-navigation_top-90 {
+  padding-top: 90px;
+}
+.footer .footer-right .footer-navigation_top-60 {
+  padding-top: 60px;
+}
+.footer .footer-right .footer-navigation_left-24 {
+  padding-left: 24px;
+}
+.footer .footer-right .footer-navigation__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.footer .footer-right .footer-navigation__link {
+  font-family: "Arial";
+  line-height: 19px;
+  color: #888888;
+  text-transform: none;
+}
 .footer .footer-about {
   display: flex;
   flex-direction: column;

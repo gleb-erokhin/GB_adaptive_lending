@@ -770,6 +770,45 @@ body {
         border-right: 2px solid #2a2a2a;
     }
 
+    .footer-right {
+        width: 670px;
+
+        &__span {
+            border-bottom: 2px solid #2a2a2a;
+        }
+
+        .footer-navigation {
+            padding-bottom: 60px;
+
+            &_top-90 {
+                padding-top: 90px;
+            }
+
+            &_top-60 {
+                padding-top: 60px;
+            }
+
+            &_left-24 {
+                padding-left: 24px;
+            }
+
+            &__items {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-left: 0;
+                margin-bottom: 0;
+            }
+
+            &__link {
+                font-family: "Arial";
+                line-height: 19px;
+                color: #888888;
+                text-transform: none;
+            }
+        }
+    }
+
     .footer-about {
         display: flex;
         flex-direction: column;
@@ -1019,7 +1058,7 @@ body {
         }
 
         &__like {
-            font-family: 'Arial';
+            font-family: "Arial";
             line-height: 18px;
             letter-spacing: -0.025em;
             text-transform: none;
