@@ -49,6 +49,11 @@ body {
   padding-right: 5px;
 }
 
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header {
   max-width: 1920px;
   background-color: #f6f6f6;
@@ -620,13 +625,13 @@ body {
   display: flex;
 }
 .footer .footer-left {
-  min-width: 850px;
+  max-width: 850px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 .footer .footer-center {
-  min-width: 400px;
+  max-width: 400px;
   border-left: 2px solid #2a2a2a;
   border-right: 2px solid #2a2a2a;
 }
@@ -774,6 +779,12 @@ body {
 }
 .footer .footer-socials {
   padding: 60px 24px 50px 24px;
+  border-bottom: 2px solid #2a2a2a;
+}
+.footer .footer-socials__twit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
 }
 .footer .footer-socials__header {
   display: flex;
@@ -793,12 +804,51 @@ body {
   display: flex;
   gap: 20px;
 }
-.footer .footer-socials__profile-subtitle {
+.footer .footer-socials_subtitle {
   font-family: "Arial";
   font-size: 13px;
   line-height: 18px;
   text-transform: none;
   color: #777777;
+}
+.footer .footer-socials__text {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: none;
+  color: #888888;
+  padding-top: 23px;
+  padding-bottom: 18px;
+}
+.footer .footer-socials__span {
+  color: #cccccc;
+}
+.footer .footer-socials__answers {
+  gap: 20px;
+}
+.footer .footer-facebook {
+  padding: 60px 24px 0 24px;
+}
+.footer .footer-facebook__items {
+  padding-top: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+.footer .footer-facebook__item {
+  width: 60px;
+  background-color: #2f2f2f;
+  padding: 5px;
+}
+.footer .footer-facebook__like {
+  font-family: "Arial";
+  line-height: 18px;
+  letter-spacing: -0.025em;
+  text-transform: none;
+  color: #888888;
+}
+.footer .footer-facebook__span {
+  color: #cccccc;
 }
 .footer .footer-bottom {
   border-top: 2px solid #2a2a2a;
